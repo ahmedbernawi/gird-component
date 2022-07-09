@@ -13,7 +13,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ![](./Screenshot.jpg)
 
 ### Links
-- Live Site URL: [](https://ahmedbernawi.github.io/gird-component/)
+- [Live Site URL](https://ahmedbernawi.github.io/gird-component/)
 
 
 ### Built with
