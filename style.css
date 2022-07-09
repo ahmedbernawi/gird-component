@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+}
+
+/*.main-card {
+  margin-top: 4em;
+}*/
+
+
+/*----------- items----------------*/
+
+.item-one {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 5px 5px 0 0;
+}
+.item-one h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.item-one h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1em;
+  font-weight: 700;
+  padding: 1em 0em;
+}
+
+.item-one p {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+.item-two {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0 0 0 5px;
+}
+
+.item-two h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.item-two h5 {
+  font-size: 1em;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+}
+.item-two span {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: white;
+  padding-right: 0.2em;
+}
+
+.item-two a {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(71, 73%, 54%);
+  margin-top: 2em;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0em 0.5em 0.8em rgba(0, 0, 0, 0.179);
+}
+a:hover{
+  background-color: hsl(71, 73%, 60%);
+}
+
+
+.item-two p {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 1em;
+  padding-right: 0.4em 0em 1em;
+}
+.item-three {
+  background-color: hsl(179, 64%, 55%);
+  padding: 1.5rem;
+  border-radius: 0 0 5px 0;
+}
+
+.item-three h2 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+
+/*---------list--------*/
+ul {
+  list-style: none;
+  padding-top: 1em;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: hsl(208, 43%, 93%);
+}
+
+@media screen and (min-width: 992px) {
+
+    .main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45% 55%;
+    margin-top: 0;
+  }
+  .item-one {
+    grid-column: 1/3;
+  }
+}
