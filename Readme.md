@@ -13,9 +13,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ![](./Screenshot.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://ahmedbernawi.github.io/gird-component/)
 
 
 ### Built with
@@ -25,11 +23,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - Flexbox
 - CSS Grid
 
-
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 
 
